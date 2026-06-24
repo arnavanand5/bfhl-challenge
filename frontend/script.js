@@ -27,7 +27,7 @@ async function submitData() {
         loader.classList.remove("hidden");
 
         const response = await fetch(
-            "http://localhost:3000/bfhl",
+            "https://bfhl-challenge-swart-nine.vercel.app/bfhl",
             {
                 method:"POST",
                 headers:{
